@@ -1,0 +1,16 @@
+.avatar{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+
+
+}
+
+.avatarWithBorder{
+  width: calc(3rem + 12px);/* 12 é a soma de todas as bordas*/
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);/*soma das bordas 4 + 4= 8 */
+ outline: 2px solid var(--green-500); /*soma das bordas 2 + 2= 4 */
+
+}
